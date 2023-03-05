@@ -1,0 +1,534 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* my header of netflix website */
+
+header{
+   background-image: url('./images/CM-en-20221228-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+    background-size: cover;
+    height: 700px;
+
+    
+}
+
+header::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 700px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    
+}
+.headertext{
+    position: relative;
+    top: 5%;
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 10px;
+    text-align: center;
+    z-index: 1;
+}
+.headertext h1{
+    font-size: 3rem;
+    margin: 10px;
+}
+.headertext h3{
+    margin: 22px;
+    font-size: 1.6rem;
+}
+.headertext p{
+    font-size: 1.2rem;
+}
+
+nav{
+    position: relative;
+    top: -45px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    z-index: 2;
+    padding: 54px;
+   
+}
+nav img{
+    height: 75px;
+    position: relative;
+    top: 35%;
+    z-index: 1;
+   
+}
+nav button{
+    background-color: red;
+    height: 35px;
+    width: 90px;
+    border: red;
+    border-radius: 3px;
+    color: white;
+    margin-top: 12px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.search{
+    position: relative;
+    top: 8%;
+    display: flex;
+    justify-content: center;
+   
+}
+.search #searchbar{
+    height: 35px;
+    width: 36%;
+    position: center;
+    z-index: 1;
+    box-shadow: none;
+    cursor: text;
+    padding: 11px;
+}
+
+.search button{
+    background: red;
+    width: 12%;
+    border: red;
+    border-radius: 3px;
+    color: white;
+    font-size: 1.2rem;
+    z-index: 1;
+    cursor: pointer;
+}
+.search button:hover{
+    opacity: 0.5s;
+    background: rgb(240, 26, 11);
+}
+
+/*section1 of netflix website */
+section{
+    background: black;
+    color: white;
+}
+.tv{
+    display: flex;
+    justify-content: flex-end;
+}
+.sectiontext1{
+    position: absolute;
+    top: 825px;
+    text-align: center;
+    padding-left: 54px;
+    font-size: 3rem;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}  
+.sectiontext1 h1{
+  
+    position: relative;
+    display: -ms-inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align:left;
+    align-items: center;
+    font-size: 3rem;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    
+}
+.sectiontext1 p{
+    position: relative;
+    display: -ms-inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align:left;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+/*section2 of netflix website*/
+.sectiontext2{
+    position: relative;
+    display: -ms-inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align: left;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    padding-left: 655px;
+    transform: translate(0 , -335px);
+}
+.sectiontext2 h1{
+    font-size: 3rem;
+    padding-bottom: 9px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.sectiontext2 h3{
+    font-size: 1.5rem;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.cadre{
+    align-items: center;
+    background: #000;
+    border: 2px solid hsla(0,0%,100%,.25);
+    border-radius: 0.75em;
+    bottom: 8%;
+    box-shadow: 0 0 2em 0 #000;
+    display: flex;
+    left: 50%;
+    margin: 0 auto;
+    min-width: 15em;
+    padding: 5px;
+    position: absolute;
+    transform: translateX(-670px);
+    width: 30%;
+    height: 85px;
+    top: 1550px;
+   
+}
+.phone .flyer{
+    height: 80px;
+    position: relative;
+    top: 145px;
+    align-items: center;
+    transform: translate( -520px, -180px);
+    z-index: 1;
+}
+.phone .gif{
+    height: 80px;
+    position: relative;
+    top: 245%;
+    transform: translate( -270px, -35px);
+    z-index: 1;
+}
+
+.phone h2{
+    font-size: 1.2rem;
+    position: relative;
+    top: auto;
+    text-align: center;
+    transform: translate( -488px,-88px);
+    z-index: 5;
+}
+
+.phone p{
+    font-size: 0.6;
+    position: relative;
+    top: auto;
+    text-align: center;
+    transform: translate( -508px,-85px);
+    z-index: 5;
+}
+/*section3 of netflix website */
+.container{
+    position: relative;
+    display: -ms-inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding-left: 85px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.container h1{
+    font-size: 3rem;
+    padding-top: 35px;
+}
+.container p{
+    font-size: 1.5rem;
+    padding-bottom: 45px;
+}
+/*section4 of netflix website */
+.kids{
+    
+    position: relative;
+    top: 25px;
+    text-align: left;
+    padding-left: 54px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    align-items: flex-end;
+   
+}
+
+.textvui{
+    position: relative;
+    display: -ms-inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align: left;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    padding-left: 655px;
+    transform: translate(0 , -335px);
+}
+/*section5 of netflix website */
+.bloc{
+    text-align: center;
+}
+.bloc h1{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 3rem;
+    padding-top: 60px;
+}
+.question{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40px;
+    align-items: center;
+    padding: 30px;
+   
+}
+.question li{
+    padding: 20px 30px;
+    margin: 5px;
+    font-size: 1.6rem;
+    background-color: rgb(29, 27, 27);
+    color: white;
+    text-align: left;
+    width: 60%;
+    
+}
+.bloc p{
+    padding-top: 50px;
+    font-size: 1.2rem;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.input{
+    padding-top: 15px;
+    padding-block-end: 104px;
+    position: relative;
+    top: 12%;
+    display: flex;
+    justify-content: center;
+}
+.input #emailinput{
+    height: 32px;
+    width: 40%;
+    position: center;
+    box-shadow: none;
+    cursor: text;
+    padding: 11px;
+}
+.input button{
+    background: red;
+    height: 58px;
+    width: 12%;
+    border: red;
+    border-radius: 3px;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.input button:hover{
+    opacity: 0.5s;
+    background: rgb(240, 26, 11);
+}
+/*section6 of netflix website */
+.footer{
+    max-width: 100%;
+    position: relative;
+    top: 0px;
+    height: 300px;
+   
+    
+    overflow: auto;
+    background-color: black;
+}
+
+.footer a{
+    color: gray;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.footer p{
+    color: gray;
+    display: flex;
+    padding-right: 30%;
+    justify-content: center;
+    font-size: 1rem;
+    padding-top: 51px;
+    padding-bottom: 20px;
+}
+.footer .footer-cols{
+    display: flex;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-gap: 2rem;
+    justify-content: center;
+}
+.footer ul{
+    display: block;
+    justify-content: center;
+}
+.footer li{
+    line-height: 2;
+ 
+}
+.footer.liner{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*responsive of netflix website */
+
+@media  screen and (max-width: 799px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        background-image: url('./images/CM-en-20221228-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+         background-size: cover;
+         height: 700px;
+     
+         
+     }
+     
+     header::after{
+         content: "";
+         position: absolute;
+         top: 0;
+         left: 0;
+         height: 700px;
+         width: 100%;
+         background-color: rgba(0, 0, 0, 0.75);
+         
+     }
+     .headertext{
+         position: relative;
+         top: 1%;
+         color: white;
+         font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+         font-size: 10px;
+         height: 15px;
+         text-align: center;
+         z-index: 1;
+         justify-content: center;
+     }
+     .headertext h1{
+         font-size: 1.9rem;
+         margin: 2px;
+         height: 25px;
+         padding-bottom: 21px;
+     }
+     .headertext h3{
+        margin-top: 91px;
+         margin-bottom: 30px;
+         font-size: 1.5rem;
+         height: 8px;
+     }
+     .headertext p{
+        padding-top: 10px;
+        font-size: 1.2rem;
+        height: 5px;
+     }
+     
+     nav{
+         position: relative;
+         top: -45px;
+         display: flex;
+         justify-content: space-between;
+         margin: 0px;
+         z-index: 2;
+         padding: 58px;
+         margin-left: -25px;
+         margin-right: -15px;
+        
+     }
+     nav img{
+         height: 60px;
+
+         position: relative;
+         top: 45%;
+         z-index: 1;
+        
+     }
+     nav button{
+         background-color: red;
+         height: 40px;
+         width: 110px;
+         margin-top: 32px;
+         border: red;
+         font-size: 1.1rem;
+         border-radius: 3px;
+         color: white;
+         margin-top: 12px;
+         cursor: pointer;
+         z-index: 1;
+     }
+     
+     .search{
+         position: relative;
+         top: 35%;
+         display: flex;
+         padding-left: 28px;
+         justify-content: center;
+        
+     }
+     .search #searchbar{
+         height: 29px;
+         width: 2810vw;
+         position: center;
+         z-index: 1;
+         box-shadow: none;
+         cursor: text;
+         padding: 9px;
+         margin-right: 14px;
+     }
+     
+     .search button{
+         position: relative;
+         top: 63px;
+         background: red;
+         transform: translate(-250px);
+         width: 1871px;
+         border: red;
+         border-radius: 3px;
+         color: white;
+         font-size: 1rem;
+         z-index: 1;
+         cursor: pointer;
+         padding-right: 2px;
+         font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+     }
+     .search button:hover{
+         opacity: 0.5s;
+         background: rgb(240, 26, 11);
+     }
+ /*section1 of netflix website */
+section{
+    background: black;
+    color: white;
+}
+.tv{
+    display: flex;
+    padding-top: 95px;
+    justify-content: flex-end;
+}
+.sectiontext1{
+    position: absolute;
+    top: 825px;
+    text-align: center;
+    padding-left: 54px;
+    font-size: 3rem;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}  
+.sectiontext1 h1{
+  
+    position: relative;
+    display: -ms-inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align:left;
+    align-items: center;
+    font-size: 3rem;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    
+}
+.sectiontext1 p{
+    position: relative;
+    display: -ms-inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align:left;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
